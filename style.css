@@ -1,0 +1,31 @@
+h1 {
+    position: absolute;
+    float: center;
+    top: 2%;
+    left: 5%;
+    background-color: blue;    
+
+}
+
+h4 {
+    position: absolute;
+    float: center;
+    top: 10%;
+    left: 5% ;
+
+}
+
+#loading {
+    position: absolute;
+    float: center;
+    top: 15%;
+    left: 10% ;
+}
+
+#foto {
+    position: absolute;
+    width: 200px;
+    border: 2px;
+    top:25%;
+    left: 5%
+      }
