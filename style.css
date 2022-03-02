@@ -6,54 +6,68 @@ body{
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 .header{
-    position: absolute;
-    /* background-color:#0073b1; */
-    /* background-size: cover; */
-    padding: 0% 10% 10%;
-    margin: auto;
-    z-index: 1;
+    background-image: url(https://static-exp1.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq);
+    background-position: 90% 50%
+    padding: 20px 0px;
     text-align: center;
     max-width:100%;
-}
-h1 {
-    /* position: absolute; */
-    /* float: center; */
-    /* top: 2%;
-    left: 5%; */
-    /* background-color: blue; */
-    /* padding: 15px 40px 60px 80px; */
-
-}
-
-h4 {
-    /* position: absolute; */
-    /* float: center;
-    top: 10%;
-    left: 5% ; */
-
-}
-
-#loading {
-    /* position: absolute; */
-    /* float: center; */
-    /* top: 15%;
-    left: 10% ; */
 }
 
 #foto {
     /* position: absolute; */
-    border-radius: 50% 50% 15% 50%;    
+    border-radius: 50% 50% 50% 50%;    
+    background-color: #2867B2;
+    padding: 5px;
     width: 200px;
-    border: 2px;
+    border: 12px;
     top:25%;
     left: 5%;
-    z-index: 2;
-      }
-p, li {
+    z-index: 1
+}
+
+.button-cont {
+    padding: 30px 70px;
+    text-align: center;
+    max-width: 100%;
+}
+.button-unit {
+    display: inline;
+    width: 50%;
+    margin: 0px 15px 15px 15px;
+    background-color: #2867B2;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(24, 69, 95);
+    
+}
+.button{
+    color:white;
+    text-decoration: none;
+}
+
+.block-body {
+    max-width: 90%;
+    margin: auto;
+}
+.block-body li{
+    margin-left: 30px;
+}
+.block-body p{
+    margin-left: 20px;
+}
+.linksnavegacao {
     color: #475550;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -1px;
+    margin-left: 70px;
+}
+.text-body {
+    color: #475550;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1px;
+    margin-left: 0px;
 }
 
 .livroseblogs{

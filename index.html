@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -15,52 +15,73 @@
 </head>
 
 <body>
+
+    <!-- Foto e contra capa -->
     <div class="header">
         <h1>Sidney da Silva de Oliveira</h1>
         <h4>Desenvolvedor Web</h4>
-        <p id="loading">(loading...)</p>
+        <p>(loading...)</p>
+        <img src="Imagem_01.jpeg" id="foto" alt="Sidney S. Oliveira">
     </div>
-    <img src="https://static-exp1.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq" id="Contra_capa" alt="Contra_capa">
-    <img src="Imagem_01.jpeg" id="foto" alt="Sidney S. Oliveira">
 
-    <ul>
-        <li><a href="#SM">Sobre mim</a></li>
-        <li><a href="#SS">Soft Skills</a></li>
-        <li><a href="#HS">Hard Skills</a></li>
-    </ul>
-    <h2 id="SM">Sobre mim:</h2>
-    <p>Brasileiro nascido em Macapá e <strong>criado nas 5 regiões brasileiras</strong>, atualmente vivendo o sonho de
-        morar na Praia do Sonho <i>de Palhoça-Sc</i> e me aperfeiçoar <strong>profissionalmente na área da
-            tecnologia</strong>.
-    </p>
-    <h2 id="SS">Soft Skills</h2>
-    <ul>
-        <li>Empatia</li>
-        <li><strong>Aprendizado Contínuo</strong></li>
-        <li>Pensamento critico/criativo</li>
-        <li>Colaboração</li>
-        <li>Escuta ativa</li>
-    </ul>
-    <h2 id="HS">Hard Skills</h2>
-    <ul>
-        <li>Git/Github</li>
-        <li>Html</li>
-        <li>CSS</li>
-        <li><Strong>SQL Server</strong></li>
-        <li>SGBDs</li>
-    </ul>
-    <h2 id="HS">Livros e Blogs</h2>
-    <ul>
-        <li ><a class="livroseblogs" href="Inteligencia_emocional.jpg" target="_blank">Inteligência emocional (Daniel Goleman)</a></li>
-        <li><a class="livroseblogs" href="Audaz.jpg" target="_blank">Audaz (Mauricio Benvenutti)</a></li>
-        <li><a class="livroseblogs" href="O_verdadeiro_poder.jpg" target="_blank">O verdadeiro poder (Vicente Falconi)</a></li>
-        <li><a class="livroseblogs" href="https://jamesclear.com" target="_blank">James Clear</a></li>
-        <li><a class="livroseblogs" href="https://blog.betrybe.com/" target="_blank">Trybe</a></li>
-        <li><a class="livroseblogs"
-                href="https://app.startse.com/?_ga=2.204211472.1029358259.1645743278-1391013735.1645743278&_gac=1.149054020.1645743278.CjwKCAiA9tyQBhAIEiwA6tdCrCQAafWPq_4QVNYlvuZx-mzJqNBx1bIsDD1SdXVKglMxc7vlxj9kERoC5dgQAvD_BwE">StartSe</a>
-        </li>
+    <br>
+    <!-- Link contato e curriculo -->
+    <div class="button-cont">
+        <div class="button-unit">
+            <a class="button" href="https://wa.me/5548998577150" target="_blank">Contato</a>
+        </div>
+        <div class="button-unit">
+            <a class="button" href="CURRICULO.pdf" target="_blank">Currículo</a>
+        </div>
+    </div>
 
-    </ul>
+    
+    <div class="block-body">
+        
+        <!-- Links para navagação interna -->
+            <ul>
+                <li><a href="#SobreMim">Sobre mim</a></li>
+                <li><a href="#SoftSkills">Soft Skills</a></li>
+                <li><a href="#HardSkills">Hard Skills</a></li>
+            </ul>
+        <!-- Textos descritivos -->
+            <h2 id="SobreMim">Sobre mim:</h2>
+            <p>Brasileiro nascido em Macapá e <strong>criado nas 5 regiões brasileiras</strong>, atualmente vivendo o sonho de
+                morar na Praia do Sonho <i>de Palhoça-Sc</i> e me aperfeiçoar <strong>profissionalmente na área da
+               tecnologia</strong>.
+            </p>
+            <h2 id="SoftSkills">Soft Skills</h2>
+            <ul>
+                <li>Empatia</li>
+                <li><strong>Aprendizado Contínuo</strong></li>
+                <li>Pensamento critico/criativo</li>
+                <li>Colaboração</li>
+                <li>Escuta ativa</li>
+            </ul>
+            <h2 id="HardSkills">Hard Skills</h2>
+            <ul>
+                <li>Git/Github</li>
+                <li>Html</li>
+                <li>CSS</li>
+                <li><Strong>SQL Server</strong></li>
+                <li>SGBDs</li>
+            </ul>
+            <h2 id="HS">Livros e Blogs</h2>
+            <ul>
+                <li><a class="livroseblogs" href="Inteligencia_emocional.jpg" target="_blank">Inteligência emocional (Daniel
+                        Goleman)</a></li>
+                <li><a class="livroseblogs" href="Audaz.jpg" target="_blank">Audaz (Mauricio Benvenutti)</a></li>
+                <li><a class="livroseblogs" href="O_verdadeiro_poder.jpg" target="_blank">O verdadeiro poder (Vicente
+                        Falconi)</a></li>
+                <li><a class="livroseblogs" href="https://jamesclear.com" target="_blank">James Clear</a></li>
+                <li><a class="livroseblogs" href="https://blog.betrybe.com/" target="_blank">Trybe</a></li>
+                <li><a class="livroseblogs"
+                        href="https://app.startse.com/?_ga=2.204211472.1029358259.1645743278-1391013735.1645743278&_gac=1.149054020.1645743278.CjwKCAiA9tyQBhAIEiwA6tdCrCQAafWPq_4QVNYlvuZx-mzJqNBx1bIsDD1SdXVKglMxc7vlxj9kERoC5dgQAvD_BwE">StartSe</a>
+                </li>
+        
+            </ul>
+    </div>
+    
 </body>
 
 </html>
