@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: Monteserrat; sans-serif;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 .header{
     position: absolute;
@@ -42,9 +42,17 @@ h4 {
 
 #foto {
     /* position: absolute; */
+    border-radius: 50% 50% 15% 50%;    
     width: 200px;
     border: 2px;
     top:25%;
     left: 5%;
     z-index: 2;
       }
+p, li {
+    color: #475550;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1px;
+
+}
